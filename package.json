@@ -8,17 +8,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
     "get-all": "node src/scripts/getAllContacts.js",
- "generate": "node src/scripts/generateContacts.js",
-"add-one": "node src/scripts/addOneContact.js",
-"count": " node src/scripts/countContacts.js",
-"thanos": "node src/scripts/thanos.js",
- "remove-all": "node src/scripts/removeAllContacts.js"
+    "generate": "node src/scripts/generateContacts.js",
+    "add-one": "node src/scripts/addOneContact.js",
+    "count": " node src/scripts/countContacts.js",
+    "thanos": "node src/scripts/thanos.js",
+    "remove-all": "node src/scripts/removeAllContacts.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
     "@faker-js/faker": "^8.4.1",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
     "nodemon": "^3.1.1"
   }
 }
